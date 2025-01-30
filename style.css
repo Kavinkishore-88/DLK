@@ -1,6 +1,10 @@
- *{
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+IN:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+IN:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
     margin: 0;
     padding: 0;
+    font-family:"Poppins",serif;
     box-sizing: border-box;
 }
 
@@ -20,15 +24,19 @@ header img{
 }
 
 header h1{
-    color: #ffeb3b;
-    font-family: sans-serif;
+    color: #40a3f4;
     padding-left: 2rem;
-    text-shadow: 2px 4px 4px rgb(255, 64, 129);
+    /* text-shadow: 0 0 4px rgb(241, 33, 33); */
+}
+
+span{
+    color: rgb(241, 33, 33);
+    font-family: Playwrite IN;
+    /* text-shadow: 0 0 4px #40f1f4; */
 }
 
 .no{
     color: rgb(255, 87, 34);
-    font-family: sans-serif;
     font-size: 50px;
     text-align: center;
     padding-top: 3rem;
@@ -44,7 +52,6 @@ main {
 }
 
 div h1{
-    font-family: sans-serif;
     font-size: 1rem;
     text-align: center;
     padding-bottom: 8px ;
@@ -77,9 +84,8 @@ footer{
 }
 
 footer p{
-    color: rgb(255, 235, 59);
+    color:  #40f1f4;
     font-size: 1.3rem;
-    font-family: sans-serif;
     padding: 2rem;
     text-align: center;
 }
