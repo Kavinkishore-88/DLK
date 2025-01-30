@@ -84,6 +84,7 @@ footer{
 }
 
 footer p{
+    font-family:"Poppins",serif;
     color:  #40f1f4;
     font-size: 1.3rem;
     padding: 2rem;
